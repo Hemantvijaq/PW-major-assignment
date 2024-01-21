@@ -1,0 +1,133 @@
+.body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(212, 212, 212);
+    color: black;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 1fr 2fr;
+    position: relative;
+    margin: 5%;
+    box-shadow: 0 15px  20px rgb(16, 16, 17);
+
+    
+
+}
+ h4 img{
+    margin-right: 15px;
+    background-color: whitesmoke;
+ }
+ .container .right-side{
+    font-size: 20px;
+    position: relative;
+    /* height: 100%;
+    width: 100%; */
+     display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(25, 25, 26);
+   }
+   .working{
+   margin-bottom: 30px;
+
+   }
+    .right-side p{
+    margin: 20px;
+    opacity: 1.2;
+
+   }
+
+
+   span{
+    margin: 15px;
+    font-size: 24px;
+   }
+
+
+   .blue-text{
+    color: rgb(22, 169, 218);
+    margin: 15px;
+    font-weight: 700;
+    box-shadow: 0 15px  20px rgb(39, 48, 47);
+
+
+   }
+   
+
+ .container .left-side{
+    /* height: 93%;
+    width: 320px; */
+    position: relative;
+    padding: 30px;
+    padding-right: 25px;
+    background-color: rgb(46, 43, 43);
+    
+}
+.head-image img{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    border-style: groove;
+    border-radius: 50%;
+    padding-top: 0;
+    box-shadow: 0 15px  20px rgb(16, 16, 17);
+
+    }
+    .aboutme{
+        text-align: start;
+        padding: 10px 5px;
+       
+    }
+    .head-image{
+        background-color: rgb(40, 41, 41);
+        padding: 0;
+        margin: 0 auto;
+        object-fit: contain;
+        cursor: pointer;
+        
+    }
+    .myname{
+     font-size: 30px;
+     color: whitesmoke;
+     text-align: center;
+     box-shadow: 0 15px  20px rgb(16, 16, 17);
+    }
+
+  .icons{
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  color: whitesmoke;
+  display: block;
+  padding-bottom: 15px;
+  font-weight: 700;
+ }
+ .contact-info{
+    font-size: 25px;
+    color: white;
+    padding-left: 20px;
+ }
+ .contact-info ul li{
+   text-transform:capitalize;
+ }
+ .myhobbies li{
+    font-size: 25px;
+    margin: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+ }
+
+
+
+
+
+
+
